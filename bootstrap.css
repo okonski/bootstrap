@@ -6,7 +6,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
- * Date: Sat Dec 24 22:30:43 PST 2011
+ * Date: Wed Dec 28 18:02:49 CET 2011
  */
 html, body {
   margin: 0;
@@ -2486,6 +2486,26 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   border-right: 5px solid transparent;
   border-top: 5px solid #000000;
 }
+.twipsy.top-right .twipsy-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000000;
+  right: auto;
+  left: 15px;
+}
+.twipsy.top-left .twipsy-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000000;
+  left: auto;
+  right: 15px;
+}
 .twipsy.left .twipsy-arrow {
   top: 50%;
   right: 0;
@@ -2493,6 +2513,26 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-left: 5px solid #000000;
+}
+.twipsy.left-bottom .twipsy-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000000;
+  bottom: auto;
+  top: 15px;
+}
+.twipsy.left-top .twipsy-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000000;
+  top: auto;
+  bottom: 15px;
 }
 .twipsy.bottom .twipsy-arrow {
   top: 0;
@@ -2502,6 +2542,26 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   border-right: 5px solid transparent;
   border-bottom: 5px solid #000000;
 }
+.twipsy.bottom-right .twipsy-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000000;
+  right: auto;
+  left: 15px;
+}
+.twipsy.bottom-left .twipsy-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000000;
+  left: auto;
+  right: 15px;
+}
 .twipsy.right .twipsy-arrow {
   top: 50%;
   left: 0;
@@ -2509,6 +2569,26 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-right: 5px solid #000000;
+}
+.twipsy.right-bottom .twipsy-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #000000;
+  bottom: auto;
+  top: 15px;
+}
+.twipsy.right-top .twipsy-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #000000;
+  top: auto;
+  bottom: 15px;
 }
 .twipsy-inner {
   max-width: 200px;

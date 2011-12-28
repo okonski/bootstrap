@@ -282,32 +282,40 @@
 // Popover arrows
 // For tipsies and popovers
 #popoverArrow {
-  .top(@arrowWidth: 5px) {
+  .top(@arrowWidth: 5px,@left: 50%) {
     bottom: 0;
-    left: 50%;
+    left: @left;
     margin-left: -@arrowWidth;
     border-left: @arrowWidth solid transparent;
     border-right: @arrowWidth solid transparent;
     border-top: @arrowWidth solid @black;
   }
-  .left(@arrowWidth: 5px) {
-    top: 50%;
+  .left(@arrowWidth: 5px, @top: 50%) {
+    top: @top;
     right: 0;
     margin-top: -@arrowWidth;
     border-top: @arrowWidth solid transparent;
     border-bottom: @arrowWidth solid transparent;
     border-left: @arrowWidth solid @black;
   }
-  .bottom(@arrowWidth: 5px) {
+  .bottom(@arrowWidth: 5px,@left: 50%) {
     top: 0;
-    left: 50%;
+    left: @left;
     margin-left: -@arrowWidth;
     border-left: @arrowWidth solid transparent;
     border-right: @arrowWidth solid transparent;
     border-bottom: @arrowWidth solid @black;
   }
-  .right(@arrowWidth: 5px) {
-    top: 50%;
+  .right(@arrowWidth: 5px,@top: 50%) {
+    top: @top;
+    left: 0;
+    margin-top: -@arrowWidth;
+    border-top: @arrowWidth solid transparent;
+    border-bottom: @arrowWidth solid transparent;
+    border-right: @arrowWidth solid @black;
+  }
+  .right-top(@arrowWidth: 5px,@bottom: 50%) {
+    bottom: @bottom;
     left: 0;
     margin-top: -@arrowWidth;
     border-top: @arrowWidth solid transparent;

@@ -15,9 +15,49 @@
   &.bottom { margin-top:   2px; }
   &.left   { margin-left: -2px; }
   &.top .twipsy-arrow    { #popoverArrow > .top(); }
-  &.left .twipsy-arrow   { #popoverArrow > .left(); }
+  &.top-right .twipsy-arrow {
+    #popoverArrow > .top();
+    right: auto;
+    left: 15px;
+  }
+  &.top-left .twipsy-arrow {
+    #popoverArrow > .top();
+    left: auto;
+    right: 15px;
+  }
+  &.left .twipsy-arrow { #popoverArrow > .left(); }
+  &.left-bottom .twipsy-arrow   {
+    #popoverArrow > .left();
+    bottom: auto;
+    top: 15px;
+  }
+  &.left-top .twipsy-arrow {
+    #popoverArrow > .left();
+    top: auto;
+    bottom: 15px;
+  }
   &.bottom .twipsy-arrow { #popoverArrow > .bottom(); }
-  &.right .twipsy-arrow  { #popoverArrow > .right(); }
+  &.bottom-right .twipsy-arrow {
+    #popoverArrow > .bottom();
+    right: auto;
+    left: 15px;
+  }
+  &.bottom-left .twipsy-arrow {
+    #popoverArrow > .bottom();
+    left: auto;
+    right: 15px;
+  }
+  &.right .twipsy-arrow { #popoverArrow > .right(); }
+  &.right-bottom .twipsy-arrow {
+    #popoverArrow > .right();
+    bottom: auto;
+    top: 15px;
+  }
+  &.right-top .twipsy-arrow {
+    #popoverArrow > .right();
+    top: auto;
+    bottom: 15px;
+  }
 }
 .twipsy-inner {
   max-width: 200px;
